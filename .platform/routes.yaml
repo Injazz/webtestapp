@@ -6,14 +6,14 @@
 "https://{default}/":
   primary: true
   type: upstream
-  upstream: "app:http"
+  upstream: "testwebbapp:http"
   cache:
     enabled: false
 
 "https://www.{default}/":
   primary: false
   type: upstream
-  upstream: "app:http"
+  upstream: "testwebbapp:http"
   cache:
     enabled: false
 
